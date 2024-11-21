@@ -119,6 +119,9 @@ var commands = {
   },
   "dh":function(num){
      process.stdout.write(""+nov(num))
+  },
+  "dj":function(num){
+     process.stdout.write(""+String.fromCharCode(nov(num)))
   }
 }
 
